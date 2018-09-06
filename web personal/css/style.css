@@ -1,0 +1,298 @@
+body {
+  background-attachment: fixed;
+  position: relative;
+  font-family: 'Courgette', cursive;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.btn {
+  background: #358CCE;
+  color: #FFF;
+  margin-bottom: 10px;
+}
+
+.header {
+  text-align: center;
+}
+
+/***** navbar *****/
+.nav {
+  z-index: 1;
+}
+
+.navbar-inverse {
+  /*background-color: transparent;*/
+  border-bottom: none;
+}
+
+.navbar-inverse .navbar-nav > .active > a  {
+  background-color: #5780f9;
+  color: black;
+}
+
+.projectName {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.projectName a {
+  color: #5780f9;
+}
+
+
+/***** carousel *****/
+
+
+.carousel {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.carousel-text {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  padding-bottom: 20px;
+}
+
+.carousel-indicators {
+  padding-bottom: 15px;
+}
+
+.item1-tooltip {
+  color: #5780f9;
+}
+
+/***** work page *****/
+
+.work {
+  padding-top: 50px;
+}
+
+.img-responsive {
+  margin: 15px auto;
+  height: 220px;
+ }
+
+ .work-img {
+   display: block;
+   margin: auto;
+   max-width: 200px;
+   position: relative;
+ }
+
+.info {
+  position: absolute;
+  display: none;
+  top: 15%;
+  left: 22%;
+  color: #ff0000;
+  font-family: Futura;
+  text-transform:uppercase;
+  font-weight: 700;
+  letter-spacing: 0.5em;
+  line-height: 1.6;
+}
+
+ .proj-title {
+  font-weight: 100;
+}
+
+
+/***** about page *****/
+
+.about {
+  /*background-image: url("../img/aboutme.jpg");*/
+  background-attachment: fixed;
+  /*Give the background a fixed position does it not scroll when you scroll*/
+  background-size: cover;
+  /*Have the background cover the entire div section*/
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+.main-text {
+  padding-top: 40px;
+  clear: both;
+}
+
+.image img {
+  width: 80%;
+  border-radius: 100%;
+}
+
+.concept {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.skill-list {
+  margin-left: 50px;
+}
+
+.skills {
+  background-color: #5780f9;
+  border-radius: 10px;
+  border-style: ridge;
+  border-color: black;
+}
+
+
+/***** FAQ page *****/
+
+.faq {
+  /*background-image: url("");*/
+  /*Add a background image*/
+  background-attachment: fixed;
+  /*Give the background a fixed position does it not scroll when you scroll*/
+  background-size: cover;
+  /*Have the background cover the entire div section*/
+  /*width: 80%;*/
+  padding-top: 50px;
+  padding-bottom: 450px;
+
+}
+
+.faq .panel-default > .panel-heading {
+  background-color: #5780f9;
+  border-color: #a94442;
+}
+
+.panel-body {
+  font-size: 1.3em;
+  color: black;
+}
+
+.panel-title {
+  font-size: 1.5em;
+}
+
+.modal-button {
+  float: right;
+  padding: 15px;
+}
+
+
+/*CONTACT*/
+.jumbotron {
+  background: #358CCE;
+  color: #FFF;
+}
+
+.jumbotron-sm {
+  padding-top: 24px;
+  padding-bottom: 24px; }
+  .jumbotron small {
+  color: #FFF;
+}
+
+
+.map {
+  margin-bottom: 25px;
+  width: 100%;
+  height: 300px;
+}
+
+/*Footer*/
+
+.social:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+ }
+
+ .social {
+   -webkit-transform: scale(0.8);
+   /* Browser Variations: */
+
+   -ms-transform: scale(0.8);
+   -moz-transform: scale(0.8);
+   -o-transform: scale(0.8);
+   transform: scale(0.8);
+   -webkit-transition-duration: 0.5s;
+   -moz-transition-duration: 0.5s;
+   -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+
+ .fa-facebook-square:hover {
+   color: #3B5998;
+ }
+ .fa-twitter-square:hover {
+   color: #4099FF;
+ }
+ .fa-google-plus-square:hover {
+   color: #d34836;
+ }
+ .fa-envelope-square:hover {
+   color: #f39c12;
+ }
+
+
+
+/*Typography*/
+
+
+ p, li {
+  font-size: 1.5em;
+}
+
+.intro p {
+  font-weight: 100;
+}
+
+.concept {
+  text-decoration: underline;
+}
+
+h1 {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+.parallax { 
+    /* The image used */
+    background-image: url("img_44.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#faq{
+    background-image: url("../img/44.jpg");
+/*Add a background image*/
+    background-attachment: fixed;
+/*Give the background a fixed position does it not scroll when you scroll*/
+    background-size: cover;
+/*Have the background cover the entire div section*/
+    color: white;
+/*Change the color of the text on top so it is readable and adjust the padding as needed.*/
+    padding:10px;
+    padding-top: 50px;
+    height: 400px;
+}
+.modal-button{
+    float: right;
+    padding: 15px;
+    width :100%;
+    height: 100%;
+}
+#MY-RESUME {
+  height: 500px;
+    width: 100%;
+    padding: 10px;
+}
